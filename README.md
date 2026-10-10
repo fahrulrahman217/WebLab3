@@ -46,3 +46,16 @@ contoh
 
 Penjelasan:
 CSS internal, eksternal, dan inline memiliki aturan prioritas masing-masing. Inline CSS umumnya lebih diprioritaskan jika ketiganya mengatur properti yang sama. Namun, hasil akhir juga dapat dipengaruhi oleh spesifisitas selector, urutan deklarasi, dan penggunaan !important.
+
+###### 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+![Gambar 4](Screenshots/4.png)
+
+![Gambar 4](Screenshots/5.png)
+
+Penjelasan:
+
+- #paragraf-1 merupakan selector ID yang digunakan untuk mengatur warna teks menjadi merah.
+- .text-paragraf merupakan selector Class yang digunakan untuk mengatur ukuran teks menjadi 16 piksel.
+- Kedua deklarasi CSS tersebut dapat diterapkan secara bersamaan karena mengatur properti yang berbeda.
+  Hasil pada browser: Tulisan 'Kami sedang belajar HTML dan CSS dasar' akan berwarna merah dengan ukuran huruf 16 piksel.
