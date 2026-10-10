@@ -21,3 +21,11 @@ Beberapa properti CSS yang diubah atau ditambahkan adalah:
   Contohnya, pada bagian #intro, properti background dapat diubah menjadi warna lain, kemudian ditambahkan border-radius: 10px agar sudut kotak menjadi melengkung.
   Kesimpulan:
   Berdasarkan eksperimen yang dilakukan, perubahan dan penambahan properti CSS dapat memengaruhi tampilan halaman web, seperti warna, ukuran teks, jarak antar-elemen, dan bentuk kotak. Dengan menggunakan CSS, halaman web dapat dibuat lebih menarik, rapi, dan mudah dibaca.
+
+#### 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+
+![Gambar 2](Screenshots/h1.png)
+![Gambar 2](Screenshots/introh1.png)
+
+Penjelasan:
+Selector h1 berlaku untuk semua elemen judul <h1>, sedangkan selector #intro h1 hanya berlaku untuk elemen <h1> yang berada di dalam elemen dengan ID intro. Selector #intro h1 lebih spesifik sehingga aturan tersebut akan diutamakan ketika kedua selector mengatur properti yang sama dan memiliki tingkat kepentingan yang sama.
