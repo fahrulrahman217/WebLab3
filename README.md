@@ -28,4 +28,4 @@ Beberapa properti CSS yang diubah atau ditambahkan adalah:
 ![Gambar 2](Screenshots/introh1.png)
 
 Penjelasan:
-Selector h1 berlaku untuk semua elemen judul <h1>, sedangkan selector #intro h1 hanya berlaku untuk elemen <h1> yang berada di dalam elemen dengan ID intro. Selector #intro h1 lebih spesifik sehingga aturan tersebut akan diutamakan ketika kedua selector mengatur properti yang sama dan memiliki tingkat kepentingan yang sama.
+Selector h1 berlaku untuk semua elemen judul h1>, sedangkan selector #intro h1 hanya berlaku untuk elemen h1> yang berada di dalam elemen dengan ID intro. Selector #intro h1 lebih spesifik sehingga aturan tersebut akan diutamakan ketika kedua selector mengatur properti yang sama dan memiliki tingkat kepentingan yang sama.
