@@ -29,3 +29,16 @@ Beberapa properti CSS yang diubah atau ditambahkan adalah:
 
 Penjelasan:
 Selector h1 berlaku untuk semua elemen judul h1>, sedangkan selector #intro h1 hanya berlaku untuk elemen h1> yang berada di dalam elemen dengan ID intro. Selector #intro h1 lebih spesifik sehingga aturan tersebut akan diutamakan ketika kedua selector mengatur properti yang sama dan memiliki tingkat kepentingan yang sama.
+
+##### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+![Gambar 3](Screenshots/Internal.png)
+
+![Gambar 3](Screenshots/Eksternal.png)
+
+![Gambar 3](Screenshots/Inline.png)
+
+![Gambar 3](Screenshots/contoh.png)
+
+Penjelasan:
+CSS internal, eksternal, dan inline memiliki aturan prioritas masing-masing. Inline CSS umumnya lebih diprioritaskan jika ketiganya mengatur properti yang sama. Namun, hasil akhir juga dapat dipengaruhi oleh spesifisitas selector, urutan deklarasi, dan penggunaan !important.
