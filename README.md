@@ -32,12 +32,16 @@ Selector h1 berlaku untuk semua elemen judul h1>, sedangkan selector #intro h1 h
 
 ##### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
+Internal
 ![Gambar 3](Screenshots/Internal.png)
 
+Eksternal
 ![Gambar 3](Screenshots/Eksternal.png)
 
+Inline
 ![Gambar 3](Screenshots/Inline.png)
 
+contoh
 ![Gambar 3](Screenshots/contoh.png)
 
 Penjelasan:
