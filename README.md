@@ -6,7 +6,7 @@
 
 ### Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini
 
-![Gambar 1](Screenshots/Perubahan)
+![Gambar 1](Screenshots/Perubahan.png)
 
 Penjelasan:
 Beberapa properti CSS yang diubah atau ditambahkan adalah:
